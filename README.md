@@ -2,7 +2,7 @@
 Hello.
 This is a solution to finding primes
 
-Project Euler - #9 Primes
+Project E - #9 Primes
 
 * The numbers we are looking for are in sequence
 
