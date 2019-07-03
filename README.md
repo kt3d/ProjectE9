@@ -27,7 +27,9 @@ If we store the prime numbers we found, we make the search more efficient, becau
 Realizing this, we only have to store primes we found (I chose an “array”, a Python List) and iterate/loop through until we reach the 1st value whose square is equal to or larger than the number we are testing.  IF equal we know it has a square root, and thus NOT prime.   Otherwise it IS a prime and we add it to the array for future searches.
 
 high_Squared < number  	  —>	continue
+
 high_Squared == number   	—>	stop, number^2 not prime
+
 high_Squared > number	    —>	begin loop through previously stored prime numbers “i”
 	                    				if i^2 greater than number stop
 			                  		  if number / i has no remainder, clean integer division, not prime
