@@ -35,6 +35,7 @@ high_Squared > number	    —>	begin loop through previously stored prime number
 
 
 3 cases (prime, divisible by prime,
+
                ^
           2*2     3*3                                     
           4        9
